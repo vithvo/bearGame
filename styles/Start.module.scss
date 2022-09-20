@@ -1,0 +1,66 @@
+.container {
+  width: 700px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+  background-color: #6e401c;
+  padding: 50px;
+  border-radius: 30px;
+  color: #fffbf1;
+}
+
+.bearImage {
+  height: 400px;
+  position: absolute;
+  top: 0px;
+  left: -151px;
+}
+
+.bearImage3 {
+  height: 400px;
+  position: absolute;
+  top: 0px;
+  right: -274px;
+}
+
+.startButton {
+  border-radius: 20px;
+  border: 0;
+  padding: 14px 30px 15px;
+  background: linear-gradient(to top, #c2a273, #aa967e);
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-transform: uppercase;
+  box-shadow: 1px 3px 2px #2a0000;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  &:hover {
+    filter: brightness(1.05);
+    box-shadow: 2px 4px 4px #2a0000;
+  }
+  &:active {
+    filter: brightness(1);
+    box-shadow: 1px 1px 1px #2a0000;
+  }
+}
+
+.title {
+  font-size: 50px;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 3px #2a0000;
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+
+.subTitle {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  line-height: 50px;
+  text-shadow: 1px 1px 2px #2a0000;
+  margin-bottom: 50px;
+}
